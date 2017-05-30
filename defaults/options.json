@@ -1,5 +1,5 @@
 {
-    "STACK": "trusty",
+      "STACK": "trusty",
     "LIBDIR": "lib",
     "WEBDIR": "htdocs",
     "WEB_SERVER": "httpd",
@@ -14,6 +14,6 @@
     "PHP_STRIP": true,
     "PHP_MODULES_STRIP": true,
     "PHP_MODULES": [],
-    "PHP_EXTENSIONS": ["bz2", "zlib", "curl", "mcrypt"],
+    "PHP_EXTENSIONS": ["bz2", "zlib", "curl", "mcrypt", "pdo_pgsql", "pdo", "pdo_dblib", "pgsql"],
     "ZEND_EXTENSIONS": []
 }
